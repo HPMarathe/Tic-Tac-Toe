@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmin;
+
+}
+
+.box{
+    width: 19vmin;
+    height: 19vmin;
+    font-size: 10vmin;
+}
